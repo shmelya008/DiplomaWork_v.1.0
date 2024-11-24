@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="container text-start">
+        <div class="row text-start">
+            <h3>{{ name }}</h3>
+        </div>
+        <div class="row"><p>---------------------</p></div>
+        <div class="row text-start">
+            <div class="col-3 text-start">
+                <img src=" {% static 'images/logo.jpg' %} " width="150" height="100">
+            </div>
+            <div class="col-6 text-start">
+                <p>{{ service1 | title }}</p>
+            </div>
+            <div class="col-3 text-start">
+                {% if request.user.is_authenticated %}
+                    <a class="nav-link" href="{% url 'send_telegram' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% else %}
+                    <a class="nav-link" href="{% url 'reg_auth' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% endif %}>
+            </div>
+        <div class="row"><p>---------------------</p></div>
+        </div>
+                <div class="row text-start">
+            <div class="col-3 text-start">
+                <img src=" {% static 'images/logo.jpg' %} " width="150" height="100">
+            </div>
+            <div class="col-6 text-start">
+                <p>{{ service2 | title }}</p>
+            </div>
+            <div class="col-3 text-start">
+                {% if request.user.is_authenticated %}
+                    <a class="nav-link" href="{% url 'service_response' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% else %}
+                    <a class="nav-link" href="{% url 'reg_auth' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% endif %}
+            </div>
+        <div class="row"><p>---------------------</p></div>
+        </div>
+                <div class="row text-start">
+            <div class="col-3 text-start">
+                <img src=" {% static 'images/logo.jpg' %} " width="150" height="100">
+            </div>
+            <div class="col-6 text-start">
+                <p>{{ service3 | title }}</p>
+            </div>
+            <div class="col-3 text-start">
+                {% if request.user.is_authenticated %}
+                    <a class="nav-link" href="{% url 'service_response' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% else %}
+                    <a class="nav-link" href="{% url 'reg_auth' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% endif %}
+            </div>
+        <div class="row"><p>---------------------</p></div>
+        </div>
+                <div class="row text-start">
+            <div class="col-3 text-start">
+                <img src=" {% static 'images/logo.jpg' %} " width="150" height="100">
+            </div>
+            <div class="col-6 text-start">
+                <p>{{ service4 | title }}</p>
+            </div>
+            <div class="col-3 text-start">
+                {% if request.user.is_authenticated %}
+                    <a class="nav-link" href="{% url 'service_response' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% else %}
+                    <a class="nav-link" href="{% url 'reg_auth' %}">
+                        <button type="submit">Записаться на услугу</button>
+                    </a>
+                    <p>(только для зарегистрированных пользователей)</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock content %}

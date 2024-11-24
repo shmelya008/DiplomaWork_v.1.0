@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container text-start">
+        <div class="row my-2">
+            <h1> "{{ post.title }}"</h1>
+        </div>
+        <img src="{{ post.image }}" alt="connect" style="max-height:200px">
+        <div class="row my-2">
+            <p> "{{ post.body }}"</p>
+        </div>
+    </div>
+{% endblock content %}
