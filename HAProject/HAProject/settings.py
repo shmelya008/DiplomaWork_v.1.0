@@ -128,7 +128,7 @@ USE_L10N = True
 
 USE_I18N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
@@ -136,11 +136,11 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIR = os.path.join(BASE_DIR, 'static/')
 
 STATICFILES_DIRS = [STATICFILES_DIR,]
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # Default primary key field type

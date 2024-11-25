@@ -92,7 +92,7 @@ class PostDetailView(DetailView):
 
 
 def send_post_to_telegram_view(request):
-    report = Report.objects.first()
+    report = Report.objects.all()
     send_telegram_message(chat_id='settings/CHAT_ID', report=report)
     return redirect('service_response')
 

@@ -4,69 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec8d5af-77d5-423d-b3c9-4a92338e1361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DiplomaWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAProject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAProject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAProject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAProject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0002_alter_post_publish_alter_user_balance_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0003_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0004_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0005_post_file_post_image_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0006_alter_post_file_alter_post_image_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0007_alter_post_file_alter_post_image_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0008_remove_post_file_remove_post_image_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0009_post_file_post_image_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0010_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0011_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0012_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0013_profile_delete_user_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0014_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0015_rename_profile_userprofile_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/0016_userprofile_requested_service_alter_post_publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/telegram_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/HAStudio/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/media/files/Test.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/media/files/Test_6kTPyEx.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/media/files/Test_DOtKjm5.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/media/images/Debugscreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/media/images/Снимок_экрана_2024-05-27_201217.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/static/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/paginator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/service_response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/telegram_message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/registration/reg_auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HAProject/templates/registration/signup.html" afterDir="false" />
+    <list default="true" id="cec8d5af-77d5-423d-b3c9-4a92338e1361" name="Changes" comment="24.11 / 20:50">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/telegram_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/telegram_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/telegram_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/telegram_message.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -106,20 +58,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.admin.executor": "Run",
-    "Python.settings.executor": "Run",
-    "Python.telegram_utils.executor": "Run",
-    "Python.views.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.telegram_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master-24.11&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork\HAProject\static\images" />
+      <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork\HAProject\media\images" />
       <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork" />
     </key>
   </component>
@@ -139,6 +93,23 @@
       <option name="presentableId" value="Default" />
       <updated>1731761677330</updated>
     </task>
+    <task id="LOCAL-00001" summary="24.11 / 20:50">
+      <option name="closed" value="true" />
+      <created>1732470771019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732470771019</updated>
+    </task>
+    <task id="LOCAL-00002" summary="24.11 / 20:50">
+      <option name="closed" value="true" />
+      <created>1732470813324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732470813324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -166,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="24.11 / 20:50" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.11 / 20:50" />
   </component>
 </project>

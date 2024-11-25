@@ -1,3 +1,4 @@
-{{ report.title }}
-{{ report.content|truncatewords:30 }}
+Поступила заявка на услугу {{ report.content }} с сайта HAStudio.
+Имя клиента: {{ user.name }}
+Телефон: {{ user.phone_number }}
 Дата создания:{{ report.created_at|date:'SHORT_DATE_FORMAT' }}
