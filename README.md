@@ -24,13 +24,13 @@
   <summary>Оглавление</summary>
   <ol>
     <li>
-      <a href="#О проекте">О проекте</a>
+      <a href="#О-проекте">О проекте</a>
       <ul>
         <li><a href="#built-with">Создано с поддержкой</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Начало работы</a>
+      <a href="#начало-работы">Начало работы</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Установка</a></li>
