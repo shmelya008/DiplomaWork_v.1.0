@@ -5,8 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/blob/master/IMG_6837.PNG">
+    <img src="master/IMG_6837.PNG" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Hair Aprel Studio</h3>
@@ -14,7 +14,7 @@
   <p align="center">
     Сайт салона красоты Hair Aprel
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shmelya008/DiplomaWork_v.1.0.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
