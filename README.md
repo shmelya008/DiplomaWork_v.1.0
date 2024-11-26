@@ -100,16 +100,16 @@
 #### Создание бота в телеграм
 Нам нужно создать бота в телеграм. Для этого мы ищем по имени BotFather бота @BotFather в телеграм
 
-<img src="ReadmeImages/BotFather.png" alt="Logo" width="600" height="200">
+<img src="ReadmeImages/BotFather.png" width="600" height="200">
 
 Заходим в этот бот и создаем нашего бота. Для этого вы должны ввести команду /newbot . Дальше вам предложать выбрать имя для вашего бота , после того как вы введете имя будет предложено выбрать username для вашего бота , который должен быть уникальным и окончиваться на _bot.
 
-<img src="ReadmeImages/BotFather2.png" alt="Logo" width="600" height="500">
+<img src="ReadmeImages/BotFather2.png" width="600" height="500">
 
 ### Создание нового канала в телеграм
 Создать канал очень легко. В телеграме кликаем по ссылке "Создать канал" и вводим название канала и описание
 
-
+<img src="ReadmeImages/tgchannel1.png" width="600" height="400">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
