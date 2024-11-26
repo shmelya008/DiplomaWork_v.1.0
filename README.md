@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/blob/master/IMG_6837.PNG">
-    <img src="master/IMG_6837.PNG" alt="Logo" width="80" height="80">
+    <img src="IMG_6837.PNG" alt="Logo" width="300" height="200">
   </a>
 
 <h3 align="center">Hair Aprel Studio</h3>
@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
-[![Product Name Screen Shot][product-screenshot]](http://127.0.0.1:8000/)
+[![Product Name Screen Shot][product-screenshot]](ScreenSite.PNG)
 
 Проект создан для моей подруги Кати Апрельской, блогера и владелицы студии красоты "Hair Aprel"
 Этот мини сайт должен помочь ей расширить аудиторию клиентов студии, и помочь в администрировании бизнеса.
@@ -65,11 +65,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ### Создано с поддержкой
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,30 +76,28 @@
 <!-- GETTING STARTED -->
 ## Начало работы
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Переходим в директорию DiplomaWork_v.1.0
+
+Создаем виртуальное окружение через командную строку python -m venv venv
+
+Активируем виртуальное окружение:
+
+Для Linux/Mac: source venv/bin/activate
+Для Windows: venv/Scripts/activate
+Выполняем команду pip install -r requirements.txt
+
+Выполняем миграции python manage.py migrate
+
+Запускаем приложение python manage.py runserver
 
 
-### Установка
+### Установка доплнительных ресурсов
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+Для полноценной работы приложения необходимо установить и настроить дополнительные ресурсы: 
+1. Чат бот Телеграм
+2. Публичный канал Телеграм.
+##Создание бота в телеграм
+Нам нужно создать бота в телеграм. Для этого мы ищем по имени BotFather бота @BotFather в телеграм
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +137,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: master/ScreenSite.PNG
+[product-screenshot]: ScreenSite.PNG
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
