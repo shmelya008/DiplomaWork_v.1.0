@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
-<img src="ReadmeImages/ScreenSite.png" width="600" height="800">
+<img src="ReadmeImages/ScreenSite.PNG" width="1135" height="574">
 
 Проект создан для моей подруги Кати Апрельской, блогера и владелицы студии красоты "Hair Aprel"
 Этот мини сайт должен помочь ей расширить аудиторию клиентов студии, и помочь в администрировании бизнеса.
