@@ -5,11 +5,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/blob/master/ReadmeImages/IMG_6837.PNG">
     <img src="ReadmeImages/IMG_6837.PNG" alt="Logo" width="300" height="200">
-  </a>
-
-<h3 align="center">Hair Aprel Studio</h3>
+  
+<h1 align="center">Hair Aprel Studio</h1>
 
   <p align="center">
     Сайт салона красоты Hair Aprel
@@ -91,7 +89,7 @@
 Запускаем приложение python manage.py runserver
 
 
-### Установка доплнительных ресурсов
+### Установка дополнительных ресурсов
 
 Для полноценной работы приложения необходимо установить и настроить дополнительные ресурсы: 
 1. Чат бот Телеграм
@@ -106,10 +104,18 @@
 
 <img src="ReadmeImages/BotFather2.png" width="600" height="500">
 
-### Создание нового канала в телеграм
-Создать канал очень легко. В телеграме кликаем по ссылке "Создать канал" и вводим название канала и описание
+#### Создание нового канала в телеграм
+В телеграме кликаем по ссылке "Создать канал" и вводим название канала и описание
 
 <img src="ReadmeImages/tgchannel1.png" width="600" height="400">
+
+Канал нужно сделать публичным и выбрать уникальное имя для ссылки.
+
+<img src="ReadmeImages/tgchannel2.png" width="600" height="600">
+
+Канал создан. Теперь нужно созданного бота сделать администратором созданного канала , чтобы он мог туда публиковать сообщения.
+
+<img src="ReadmeImages/tgchannel3.png" width="600" height="800">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
