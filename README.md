@@ -1,7 +1,6 @@
 # DiplomaWork_v.1.0
 <a id="readme-top"></a>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -41,7 +40,6 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
@@ -52,32 +50,31 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ### Создано с поддержкой
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 ## Начало работы
 
-Переходим в директорию ```HAProject```
+Создаем новый проект в ```Pycharm```
 
 Создаем виртуальное окружение через командную строку ```python -m venv venv```
 
 Активируем виртуальное окружение:
 
 Для Linux/Mac: ```source venv/bin/activate``` <br />
-Для Windows: ```venv/Scripts/activate``` <br />
+Для Windows: ```venv/Scripts/activate``` 
 
-Выполняем команду ```pip install -r requirements.txt``` <br />
+Выполняем команду ```pip install -r requirements.txt``` 
 
-Выполняем миграции ```python manage.py migrate``` <br />
+Клонируем проект ```git clone https://github.com/shmelya008/DiplomaWork_v.1.0.git```
+
+Выполняем миграции ```python manage.py migrate``` 
 
 Запускаем приложение ```python manage.py runserver```
-
 
 ### Установка дополнительных ресурсов
 
@@ -122,17 +119,17 @@ CHAT_ID=@**************************************
 
 #### Вы должны сюда поместить ваши данные. И этот файл не должен быть в репозитории GIT !!!
 
-Теперь вы должны установить библиотеку ```python-dotenv``` <br />
-В терминале вводим команду:
-```pip install python-dotenv```
+Теперь вы должны установить библиотеку ```python-dotenv```
+
+В терминале вводим команду: ```pip install python-dotenv```
 
 Теперь в файле ```settings.py``` вашего Django проекта мы можем читать переменные окружение следующим образом:
 
-```from dotenv import load_dotenv```
-
-```load_dotenv()```
-
 ```
+from dotenv import load_dotenv
+
+load_dotenv()
+
 BOT_TOKEN = os.getenv('BOT_TOKEN') 
 CHAT_ID = os.getenv('CHAT_ID') 
 SECURITY WARNING: keep the secret key used in production secret!
@@ -141,11 +138,9 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 Тут мы загружаем с помощью этой фкункции load_dotenv переменные окружения из файла .env
 
-А дальше они доступны через os.getenv()
+А дальше они доступны через ```os.getenv()```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Использование
@@ -153,9 +148,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 Заходим на сайт и пользуемся с удовольствием! :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 <!-- CONTACT -->
 ## Контакты
@@ -166,8 +158,6 @@ Project Link: [https://github.com/shmelya008/DiplomaWork_v.1.0.git](https://gith
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Благодарности
 
@@ -175,11 +165,7 @@ Project Link: [https://github.com/shmelya008/DiplomaWork_v.1.0.git](https://gith
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[product-screenshot]: ReadmeImages/ScreenSite.PNG
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
