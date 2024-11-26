@@ -36,14 +36,9 @@
       </ul>
     </li>
     <li><a href="#usage">Использование</a></li>
-    <li><a href="#roadmap">Дорожная карта</a></li>
-<!--     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Контакты</a></li>
-<!--     <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -68,19 +63,20 @@
 <!-- GETTING STARTED -->
 ## Начало работы
 
-Переходим в директорию HAProject
+Переходим в директорию ```HAProject```
 
-Создаем виртуальное окружение через командную строку python -m venv venv
+Создаем виртуальное окружение через командную строку ```python -m venv venv```
 
 Активируем виртуальное окружение:
 
-Для Linux/Mac: source venv/bin/activate
-Для Windows: venv/Scripts/activate
-Выполняем команду pip install -r requirements.txt
+Для Linux/Mac: ```source venv/bin/activate``` <br />
+Для Windows: ```venv/Scripts/activate``` <br />
 
-Выполняем миграции python manage.py migrate
+Выполняем команду ```pip install -r requirements.txt``` <br />
 
-Запускаем приложение python manage.py runserver
+Выполняем миграции ```python manage.py migrate``` <br />
+
+Запускаем приложение ```python manage.py runserver```
 
 
 ### Установка дополнительных ресурсов
@@ -90,7 +86,7 @@
 2. Публичный канал Телеграм.
    
 #### Создание бота в телеграм
-Нам нужно создать бота в телеграм. Для этого мы ищем по имени BotFather бота @BotFather в телеграм
+Нам нужно создать бота в Телеграм. Для этого в Телеграм ищем по имени ```BotFather``` бота @BotFather.
 
 <img src="ReadmeImages/BotFather.png" width="600" height="200">
 
