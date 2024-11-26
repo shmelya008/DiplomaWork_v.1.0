@@ -10,17 +10,11 @@
 <h1 align="center">Hair Aprel Studio</h1>
 
   <p align="center">
-    Сайт салона красоты Hair Aprel
+    <a href="http://127.0.0.1:8000/">Сайт салона красоты Hair Aprel</a>
     <br />
-    <a href="https://github.com/shmelya008/DiplomaWork_v.1.0.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shmelya008/DiplomaWork_v.1.0.git"><strong>Изучите документы</strong></a>
     <br />
-<!--     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p> -->
+  </p> 
 </div>
 
 
@@ -55,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
-[![Product Name Screen Shot][product-screenshot]](ScreenSite.PNG)
+<img src="ReadmeImages/ScreenSite.png" width="600" height="800">
 
 Проект создан для моей подруги Кати Апрельской, блогера и владелицы студии красоты "Hair Aprel"
 Этот мини сайт должен помочь ей расширить аудиторию клиентов студии, и помочь в администрировании бизнеса.
@@ -113,9 +107,11 @@
 
 <img src="ReadmeImages/tgchannel2.png" width="600" height="600">
 
-Канал создан. Теперь нужно созданного бота сделать администратором созданного канала , чтобы он мог туда публиковать сообщения.
+Канал создан. Теперь нужно ранее созданного бота сделать администратором созданного канала , чтобы он мог туда публиковать сообщения.
 
 <img src="ReadmeImages/tgchannel3.png" width="600" height="800">
+
+Далее указываем боту разрешения. Необходимо задать минимальные разрешения, позволяя боту только управлять сообщениями.
 
 #### Создание переменного окружения
 
