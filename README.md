@@ -24,7 +24,7 @@
   <summary>Оглавление</summary>
   <ol>
     <li>
-      <a href="#about-the-project">О проекте</a>
+      <a href="#О проекте">О проекте</a>
       <ul>
         <li><a href="#built-with">Создано с поддержкой</a></li>
       </ul>
@@ -62,7 +62,6 @@
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
