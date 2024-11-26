@@ -5,8 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/blob/master/IMG_6837.PNG">
-    <img src="IMG_6837.PNG" alt="Logo" width="300" height="200">
+  <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/blob/master/ReadmeImages/IMG_6837.PNG">
+    <img src="ReadmeImages/IMG_6837.PNG" alt="Logo" width="300" height="200">
   </a>
 
 <h3 align="center">Hair Aprel Studio</h3>
@@ -137,7 +137,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: ScreenSite.PNG
+[product-screenshot]: ReadmeImages/ScreenSite.PNG
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
