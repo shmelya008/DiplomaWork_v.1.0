@@ -114,10 +114,11 @@
 В корне Django проекта необходимо создать файл .env . В этом файле будет храниться токен доступа к телеграм боту , название канала , а также другие переменные.
 
 Файл .env будет выглядет следующим образом:
-
-BOT_TOKEN=************************************* <br />
-SECRET_KEY=django-insecure-******************** <br />
-CHAT_ID=@************************************** <br />
+```
+BOT_TOKEN=************************************* 
+SECRET_KEY=django-insecure-******************** 
+CHAT_ID=@**************************************
+```
 
 #### Вы должны сюда поместить ваши данные. И этот файл не должен быть в репозитории GIT !!!
 
@@ -149,9 +150,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 <!-- USAGE EXAMPLES -->
 ## Использование
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Заходим на сайт и пользуемся с удовольствием! :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,9 +160,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Контакты
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+My Name - Sergey Korobitsyn [Telegram](https://t.me/Sergey_Korobitsyn) - [e-mail](https://shmelya008@gmail.com)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/shmelya008/DiplomaWork_v.1.0.git](https://github.com/shmelya008/DiplomaWork_v.1.0.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +171,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Благодарности
 
-Благодарю всех преподавателей, кураторов университета Urban и всех, кто помогал мне в моей работе.
+Благодарю всех преподавателей, кураторов, администрацию университета Urban и всех, кто помогал мне в моей работе.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
