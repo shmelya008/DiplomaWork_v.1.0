@@ -117,6 +117,39 @@
 
 <img src="ReadmeImages/tgchannel3.png" width="600" height="800">
 
+#### Создание переменного окружения
+
+В корне Django проекта необходимо создать файл .env . В этом файле будет храниться токен доступа к телеграм боту , название канала , а также другие переменные.
+
+Файл .env будет выглядет следующим образом:
+
+BOT_TOKEN=************************************* <br />
+SECRET_KEY=django-insecure-******************** <br />
+CHAT_ID=@************************************** <br />
+
+#### Вы должны сюда поместить ваши данные. И этот файл не должен быть в репозитории GIT !!!
+
+Теперь вы должны установить библиотеку ```python-dotenv``` <br />
+В терминале вводим команду:
+```pip install python-dotenv```
+
+Теперь в файле ```settings.py``` вашего Django проекта мы можем читать переменные окружение следующим образом:
+
+```from dotenv import load_dotenv```
+
+```load_dotenv()```
+
+```
+BOT_TOKEN = os.getenv('BOT_TOKEN') 
+CHAT_ID = os.getenv('CHAT_ID') 
+SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.getenv('SECRET_KEY')
+```
+
+Тут мы загружаем с помощью этой фкункции load_dotenv переменные окружения из файла .env
+
+А дальше они доступны через os.getenv()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
