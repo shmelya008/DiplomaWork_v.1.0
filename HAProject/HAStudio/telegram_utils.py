@@ -19,11 +19,13 @@ CHAT_ID = os.getenv('CHAT_ID')
 #         """<strong>Дата создания:</strong>{{ report.created_at|date:'SHORT_DATE_FORMAT' }}""")
 #     return html_template.render(Context({'report': report}))
 
+
 def get_html_message_from_template() -> str:
     report = Report.objects.all()
     return render_to_string('telegram_message.html', {
         'report': report
     })
+
 
 def send_telegram_message(chat_id: str, report):
     # Используется метод sendMessage API Telegram
