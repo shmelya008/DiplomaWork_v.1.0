@@ -72,6 +72,8 @@
 
 Клонируем проект ```git clone https://github.com/shmelya008/DiplomaWork_v.1.0.git```
 
+Подготавливаем миграции ```python manage.py makemigrations```
+
 Выполняем миграции ```python manage.py migrate``` 
 
 Запускаем приложение ```python manage.py runserver```
