@@ -24,24 +24,20 @@
   <summary>Оглавление</summary>
   <ol>
     <li>
-      <a href="#О-проекте">О проекте</a>
+      <a href="#о-проекте">О проекте</a>
       <ul>
-        <li><a href="#built-with">Создано с поддержкой</a></li>
+        <li><a href="#создано-с-поддержкой">Создано с поддержкой</a></li>
       </ul>
     </li>
     <li>
       <a href="#начало-работы">Начало работы</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Установка</a></li>
+        <li><a href="#установка-дополнительных-ресурсов">Установка дополнительных ресурсов</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Использование</a></li>
-    <li><a href="#roadmap">Дорожная карта</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Контакты</a></li>
-    <li><a href="#acknowledgments">Благодарности</a></li>
+    <li><a href="#использование">Использование</a></li>
+    <li><a href="#контакты">Контакты</a></li>
+    <li><a href="#благодарности">Благодарности</a></li>
   </ol>
 </details>
 
