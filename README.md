@@ -21,7 +21,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Оглавление</summary>
+  <summary><h3>Оглавление</h2></summary>
   <ol>
     <li>
       <a href="#о-проекте">О проекте</a>
