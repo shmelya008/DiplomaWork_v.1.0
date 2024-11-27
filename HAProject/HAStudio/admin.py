@@ -3,6 +3,7 @@ from .models import Post, UserProfile, Report
 
 # Register your models here.
 
+
 @admin.register(Report)
 class ProfileAdmin(admin.ModelAdmin):
     list_display = ('title', 'content', 'created_at')

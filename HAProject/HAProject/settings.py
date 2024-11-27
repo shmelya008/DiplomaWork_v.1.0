@@ -148,8 +148,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# LOGOUT_REDIRECT_URL = ''
-LOGIN_REDIRECT_URL = 'service_response'
+LOGIN_REDIRECT_URL = 'services'
 
 # Settings for django-bootstrap5
 BOOTSTRAP5 = {

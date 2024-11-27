@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec8d5af-77d5-423d-b3c9-4a92338e1361" name="Changes" comment="24.11 / 20:50">
+    <list default="true" id="cec8d5af-77d5-423d-b3c9-4a92338e1361" name="Changes" comment="26.11 / 21:50">
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAProject/static/texts/text_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/HAProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/HAProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/telegram_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/telegram_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/HAStudio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/HAStudio/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/paginator.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/paginator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HAProject/templates/hastudio/telegram_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/hastudio/telegram_message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HAProject/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HAProject/templates/registration/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="302bc8afffb308c41bf6c4d6c2340f5fa70ad446" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,21 +80,23 @@
     &quot;Python.telegram_utils.executor&quot;: &quot;Run&quot;,
     &quot;Python.views.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master-24.11&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master-25.11&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork\HAProject\static\images" />
-      <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork\HAProject\media\images" />
-      <recent name="C:\Users\shmel\PycharmProjects\DiplomaWork" />
+      <recent name="C:\Users\user\PycharmProjects\DiplomaWork\HAProject\static\texts" />
+      <recent name="C:\Users\user\PycharmProjects\DiplomaWork\HAProject\static" />
+      <recent name="C:\Users\user\PycharmProjects\DiplomaWork\HAProject\HAStudio" />
+      <recent name="C:\Users\user\PycharmProjects\DiplomaWork" />
+      <recent name="C:\Users\user\PycharmProjects\DiplomaWork\HAProject" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -109,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732470813324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="26.11 / 21:50">
+      <option name="closed" value="true" />
+      <created>1732646940135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732646940135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -126,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="master-25.11" />
                       </list>
                     </value>
                   </entry>
@@ -140,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="24.11 / 20:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.11 / 20:50" />
+    <MESSAGE value="26.11 / 21:50" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.11 / 21:50" />
   </component>
 </project>

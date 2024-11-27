@@ -2,10 +2,12 @@
 
 {% block title %}signup{% endblock %}
 {% block content %}
+<div class="container-fluid р-1 text-start">
     <h2>Регистрация</h2>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Отправить</button>
     </form>
+</div>
 {% endblock content %}

@@ -1,35 +1,33 @@
 import urllib.request
 import json
-from django.conf import settings
-from django.template import Template, Context
 from django.template.loader import render_to_string
-import sys
 import os
 from dotenv import load_dotenv
-from .views import Report
+from .models import User
 
 load_dotenv()
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 CHAT_ID = os.getenv('CHAT_ID')
 
-# def get_html_message(report):
-#     html_template = Template(
-#         """<a href="{{ report.url }}">{{ report.title }}</a>{{ report.content|truncatewords:30 }}"""
-#         """<strong>Дата создания:</strong>{{ report.created_at|date:'SHORT_DATE_FORMAT' }}""")
-#     return html_template.render(Context({'report': report}))
+'''
+Здесь я пока не до конца разобрался как сделать, чтобы передавать в шаблон
+переменные, которые отправляются в Телеграм 
+И как сделать так чтобы передавались переменные пользователя,
+который в данный момент вошёл в свой профиль на сайте.
+Буду работать над этим :)
+'''
 
 
 def get_html_message_from_template() -> str:
-    report = Report.objects.all()
+    user = User.objects.filter(id=21)
     return render_to_string('telegram_message.html', {
-        'report': report
+        'user': user
     })
 
 
 def send_telegram_message(chat_id: str, report):
     # Используется метод sendMessage API Telegram
-    # Обратите внимание , что мы тут используем BOT_TOKEN
     api_url = f'https://api.telegram.org/bot{BOT_TOKEN}/sendMessage'
 
     # Указываем в параметрах CHAT_ID и само сообщение
@@ -48,13 +46,8 @@ def send_telegram_message(chat_id: str, report):
             headers={'Content-Type': 'application/json'}
         )
         with urllib.request.urlopen(req) as response:
-            #Тут выводим ответ
+            # Тут выводим ответ
             print(response.read().decode('utf-8'))
 
     except Exception as e:
         print(e)
-
-
-# if __name__ == "__main__":
-#     send_telegram_message()
-
