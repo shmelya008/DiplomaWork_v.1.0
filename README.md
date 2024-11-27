@@ -70,7 +70,7 @@
 
 Выполняем команду ```pip install -r requirements.txt``` 
 
-Клонируем проект ```git clone https://github.com/shmelya008/DiplomaWork_v.1.0.git```
+Клонируем проект ```git clone https://github.com/shmelya008/DiplomaWork_v.1.0/tree/master-27.11```
 
 Подготавливаем миграции ```python manage.py makemigrations```
 
