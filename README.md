@@ -11,7 +11,7 @@
   <p align="center">
     <a href="http://127.0.0.1:8000/">Сайт салона красоты Hair Aprel</a>
     <br />
-    <a href="https://github.com/shmelya008/DiplomaWork_v.1.0.git"><strong>Изучите документы</strong></a>
+    <a href="https://github.com/shmelya008/DiplomaWork_v.1.0/tree/master-27.11"><strong>Изучите документы</strong></a>
     <br />
   </p> 
 </div>
@@ -156,7 +156,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 My Name - Sergey Korobitsyn [Telegram](https://t.me/Sergey_Korobitsyn) - [e-mail](https://shmelya008@gmail.com)
 
-Project Link: [https://github.com/shmelya008/DiplomaWork_v.1.0.git](https://github.com/shmelya008/DiplomaWork_v.1.0.git)
+Project Link: [https://github.com/shmelya008/DiplomaWork_v.1.0/tree/master-27.11](https://github.com/shmelya008/DiplomaWork_v.1.0/tree/master-27.11)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
